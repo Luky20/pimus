@@ -1,3 +1,3 @@
-# Website PIMUS XI
+# Website PIMUS XIV
 
-    Website untuk menangani segala keperluan kegiatan PIMUS XI Universitas Surabaya
+    Website untuk menangani segala keperluan kegiatan PIMUS XIV Universitas Surabaya

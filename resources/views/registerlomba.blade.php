@@ -1,7 +1,7 @@
 @extends('layout.mainweb')
 
 @section('title')
-    PIMUS 13 - Register
+    PIMUS 14 - Register
 @endsection
 
 @section('content')
@@ -265,8 +265,8 @@
         <div class="modal fade" id="mekanisme" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: #211e51;">
-                        <h5 class="modal-title text-white fw-bold" id="exampleModalLabel">Mekanisme Pendaftaran PIMUS XI
+                    <div class="modal-header" style="background-color:#fff">
+                        <h5 class="modal-title text-white fw-bold" id="exampleModalLabel">Mekanisme Pendaftaran PIMUS XIV
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -291,7 +291,7 @@
                             kelompok untuk mensubmit ulang berkas pendaftaran.<br>
                             8. Jika hingga batas akhir pendaftaran, berkas yang dikumpulkan tidak sesuai maka peserta
                             dianggap
-                            <b>TIDAK TERDAFTAR SEBAGAI PESERTA PIMUS XIII.</b><br>
+                            <b>TIDAK TERDAFTAR SEBAGAI PESERTA PIMUS XIV.</b><br>
                         </p>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 @extends('layout.mainweb')
 
 @section('title')
-    PIMUS 13 - Verify
+    PIMUS 14 - Verify
 @endsection
 
 @section('content')

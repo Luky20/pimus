@@ -1,7 +1,7 @@
 @extends('layout.mainweb')
 
 @section('title')
-    PIMUS 13
+    PIMUS 14
 @endsection
 
 @section('style')

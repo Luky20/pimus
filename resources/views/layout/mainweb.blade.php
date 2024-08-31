@@ -64,15 +64,24 @@
                     </li>
 
                     <li class="nav-item nav-center dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <!-- <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                            Exhibition
-                        </a>
-                        <div class="dropdown-menu nav-center" aria-labelledby="navbarDropdownMenuLink">
+                            Exhibition</a>
+
+                        <div class="dropdown-menu nav-center" aria-labelledby="navbarDropdownMenuLink" id="dropdown">
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a> --}}
                             <a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a>
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a> --}}
-                        </div>
+                        </div> -->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Exhibition
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            {{-- <li><a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a></li> --}}
+                            <li><a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a></li>
+                            {{-- <li><a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a></li> --}}
+                        </ul>
+                    </li>
                     </li>
                     @endif
                     @guest

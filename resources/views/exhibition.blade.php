@@ -1,7 +1,7 @@
 @extends('layout.mainweb')
 
 @section('title')
-PIMUS 13 - Exhibition
+PIMUS 14 - Exhibition
 @endsection
 
 @section('content')

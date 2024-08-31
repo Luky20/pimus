@@ -1,7 +1,7 @@
 @extends('layout.mainweb')
 
 @section('title')
-    PIMUS 13 - About Us
+    PIMUS 14 - About Us
 @endsection
 
 @section('style')
@@ -156,8 +156,8 @@
                 </div> --}}
                 <div class="phone-info col-lg-6 wow fadeInLeft">
                     <h4 style="color: #ffffff">Contact Us</h4>
-                    <h2 style="color: #ffffff"><a style="color: #ffffff" href="https://www.instagram.com/pimus12/"
-                            TARGET="_blank"><i class="bi bi-instagram"></i> pimus13 </a></span></h2>
+                    <h2 style="color: #ffffff"><a style="color: #ffffff" href="https://www.instagram.com/pimus14_/"
+                            TARGET="_blank"><i class="bi bi-instagram"></i> pimus14_ </a></span></h2>
                 </div>
             </div>
         </div>

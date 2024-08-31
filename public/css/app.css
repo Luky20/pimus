@@ -3419,6 +3419,7 @@ input[type=button].btn-block {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  font-family: 'CarnivaleeFreakshow';
 }
 
 .dropdown-menu-left {
@@ -3591,6 +3592,7 @@ input[type=button].btn-block {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  font-family: 'CarnivaleeFreakshow';
 }
 
 .dropdown-item:hover,

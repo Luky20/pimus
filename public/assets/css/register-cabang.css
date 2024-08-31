@@ -59,10 +59,11 @@ img {
 }
 
 .title {
-    font-family: archieve;
+    font-family:'CarnivaleeFreakshow';
     color: #fff !important;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 1.5rem 0 2rem;
+    text-align: center;
     /* text-transform: lowercase; */
 }
 
@@ -70,11 +71,13 @@ img {
     margin-bottom: 1.5rem;
     font-size: 1.4rem;
     color: #fff;
+    font-family: 'Magical Source';
+    text-align: justify;
 }
 
 .card-cabang .buttons {
     display: inline-block;
-    font-family: 'pixels';
+    font-family: 'MagicalSource';
     padding: 0.8rem 0.8rem;
     letter-spacing: 1px;
     text-transform: uppercase;
