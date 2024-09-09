@@ -171,11 +171,11 @@
 
     <!-- Timeline Pimus -->
     <div class="mt-5 d-flex w-100 justify-content-center">
-        <div class="mt-3 desc-background w-50 text-center ">
-            <h1 style="color: #F2E399; text-align: center; text-transform: none; font-family: CarnivaleeFreakshow; font-weight:bold; font-size: 50px;">
-                timeline pimus xiv</h1>
+        <div class="mt-3 w-75">
+            <img src="{{ asset('assets/images/timeline font-07.png') }}" alt="Timeline Pimus XIV">
         </div>
     </div>
+    
     <link rel="stylesheet" href="{{ url('/assets/css/timeline.css') }}">
     <div class="content">
         <div class="timeline col-lg-6 wow fadeInRight">
