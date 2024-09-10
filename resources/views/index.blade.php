@@ -139,7 +139,7 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="left-image drive-responsive">
-                        <iframe src="https://drive.google.com/file/d/1_ZlZre5YX7lt7cqatA618Igm9CUYuywM/preview"
+                        <iframe src="https://drive.google.com/file/d/1tOjvGIXU4O_pJ5MuVx-faQmIomrfqUwZ/preview?autoplay=1"
                             width="640" height="400" allow="autoplay"></iframe>
                     </div>
                 </div>
@@ -171,18 +171,18 @@
 
     <!-- Timeline Pimus -->
     <div class="mt-5 d-flex w-100 justify-content-center">
-        <div class="mt-3 desc-background w-50 text-center ">
-            <h1 style="color: #F2E399; text-align: center; text-transform: none; font-family: CarnivaleeFreakshow; font-weight:bold; font-size: 50px;">
-                timeline pimus xiv</h1>
+        <div class="mt-3 w-75">
+            <img src="{{ asset('assets/images/timeline font-07.png') }}" alt="Timeline Pimus XIV">
         </div>
     </div>
+    
     <link rel="stylesheet" href="{{ url('/assets/css/timeline.css') }}">
     <div class="content">
         <div class="timeline col-lg-6 wow fadeInRight">
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">10-31 Oktober 2023</h3>
+                        <h3 style="color: #ffffff;" class="date">10-31 Oktober 2023</h3>
                         <h1 class="text-center">Open Registration </h1>
                     </div>
                 </li>
