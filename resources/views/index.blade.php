@@ -25,18 +25,9 @@
                             <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                                 <h6><img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt=""> </h6>
                                 <div class="desc-background">
-                                    <p style="color: #fff; font-weight: bold;">THE NEW GAME : DISCOVER POTENTIAL TO UNLOCK
-                                        YOUR UNIVERSE</p>
+                                    <p style="color: #fff; font-weight: bold;">TEMA PIMUS TAHUN INI...</p>
                                     <p style="color: #fff;text-align:justify !important; text-justify:inter-word" font
-                                        size="1">Para <i>player</i> secara tiba-tiba masuk ke dalam dunia game,
-                                        dimana game tersebut belum aktif.
-                                        Para <i>player</i> harus mengaktifkan game terlebih dahulu,
-                                        karena satu-satunya cara para <i>Player</i> dapat pulang ke
-                                        dunia asal adalah dengan menyelesaikan game tersebut.
-                                        Setelah game berhasil diaktifkan maka terbuka beberapa <i>Map</i>
-                                        berbeda, dimana para <i>Player</i> harus menyelesaikan <i>Map</i> untuk
-                                        dapat mengumpulkan komponen kunci yang menjadi jalan mereka
-                                        untuk kembali pulang ke dunia asal mereka.
+                                        size="1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt doloremque distinctio natus, provident unde ratione ab perspiciatis hic sit incidunt eius id sunt maxime aliquid voluptate veritatis, rem, asperiores aperiam nostrum reprehenderit! Nihil, eligendi. Sed dolore maiores non provident veritatis vel hic expedita iste vitae temporibus exercitationem optio reprehenderit, delectus quae vero id? Facilis ducimus ea sit, quisquam cum ut praesentium repellat consectetur possimus, tenetur quis dolorem? Nostrum id officiis, minima dolores et voluptatum consequuntur nihil eaque omnis ipsum eius dolorum quae nobis qui deserunt! Quasi consequatur iusto assumenda exercitationem pariatur neque deserunt, deleniti ut cum maiores? Consequatur, debitis maiores!
                                 </div>
                             </div>
                         </div>
@@ -93,7 +84,7 @@
                                     <div class="icon">
                                         {{-- <i class="fas fa-hand-holding-heart"
                                             style="height: 175px; width: 100px; color: #faba8e;"></i> --}}
-                                        <i><img src="{{ url('assets/images/logo/siluet.png') }}" alt="person graphic"
+                                        <i><img src="{{ url('assets/images/web/Owl.png') }}" alt="person graphic"
                                                 class="align-items-center mt-4"
                                                 style="height: 155px; width: 130px; color: #F2E399;"></i>
                                     </div>
@@ -139,7 +130,7 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="left-image drive-responsive">
-                        <iframe src="https://drive.google.com/file/d/1tOjvGIXU4O_pJ5MuVx-faQmIomrfqUwZ/preview?autoplay=1"
+                        <iframe src="https://drive.google.com/file/d/1_ZlZre5YX7lt7cqatA618Igm9CUYuywM/preview"
                             width="640" height="400" allow="autoplay"></iframe>
                     </div>
                 </div>
@@ -175,14 +166,13 @@
             <img src="{{ asset('assets/images/timeline font-07.png') }}" alt="Timeline Pimus XIV">
         </div>
     </div>
-    
     <link rel="stylesheet" href="{{ url('/assets/css/timeline.css') }}">
     <div class="content">
         <div class="timeline col-lg-6 wow fadeInRight">
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff;" class="date">10-31 Oktober 2023</h3>
+                        <h3 style="color: #ffffff" class="date">10-31 Oktober 2023</h3>
                         <h1 class="text-center">Open Registration </h1>
                     </div>
                 </li>
