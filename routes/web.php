@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('index');
-})->name('index')->middleware('verified');
+})->name('index');
 
 // Route tipe get yang digunakan saat mengakses halaman
 Route::middleware(['auth', 'verified'])->group(function () {
