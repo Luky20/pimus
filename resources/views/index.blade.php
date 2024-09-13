@@ -25,9 +25,10 @@
                             <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                                 <h6><img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt=""> </h6>
                                 <div class="desc-background">
-                                    <p style="color: #fff; font-weight: bold;">TEMA PIMUS TAHUN INI...</p>
+                                    <p style="color: #fff; font-weight: bold;">Magical Carnival: The Art of Incantation</p>
                                     <p style="color: #fff;text-align:justify !important; text-justify:inter-word" font
-                                        size="1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt doloremque distinctio natus, provident unde ratione ab perspiciatis hic sit incidunt eius id sunt maxime aliquid voluptate veritatis, rem, asperiores aperiam nostrum reprehenderit! Nihil, eligendi. Sed dolore maiores non provident veritatis vel hic expedita iste vitae temporibus exercitationem optio reprehenderit, delectus quae vero id? Facilis ducimus ea sit, quisquam cum ut praesentium repellat consectetur possimus, tenetur quis dolorem? Nostrum id officiis, minima dolores et voluptatum consequuntur nihil eaque omnis ipsum eius dolorum quae nobis qui deserunt! Quasi consequatur iusto assumenda exercitationem pariatur neque deserunt, deleniti ut cum maiores? Consequatur, debitis maiores!
+                                        size="1">PIMUS XIV menggabungkan konsep ilmu pengetahuan dan sihir dalam kompetisi kreatif. Peserta, yang digambarkan sebagai <i>Wizards</i> dan <i>Witches</i>, akan berkompetisi menciptakan <i>"spells"</i> dan <i>"artifacts" </i>menggunakan imajinasi mereka. Acara ini diibaratkan seperti <i>Carnival</i>, tempat penuh kebebasan berekspresi dan kreativitas. UBAYA diumpamakan sebagai Hogwarts, akademi para penyihir, di mana para peserta dapat menunjukkan inovasi dan keterampilan. PIMUS XIV menjadi media untuk mengekspresikan ide-ide kreatif melalui <i>"The Art of Abracadabra"</i>. Kompetisi dalam PIMUS XIV kali ini dirancang untuk dapat memberikan ruang yang luas bagi peserta untuk mengeksplorasi imajinasi mereka.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -172,19 +173,19 @@
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">10-31 Oktober 2023</h3>
+                        <h3 style="color: #ffffff" class="date">7 Oktober2024-4 November 2024</h3>
                         <h1 class="text-center">Open Registration </h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">6-7 November 2023</h3>
+                        <h3 style="color: #ffffff" class="date">5-8 November 2024</h3>
                         <h1 class="text-center">Technical Meeting</h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">10-11 November 2023</h3>
+                        <h3 style="color: #ffffff" class="date">5-8 November 2024</h3>
                         <h1>Klinik PKM, PILMAPRES, dan Video Digital Pendidikan</h1>
                     </div>
                 </li>
@@ -212,7 +213,7 @@
                 --}}
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">27 November-1 Desember 2023</h3>
+                        <h3 style="color: #ffffff" class="date">9 Desember-13 Desember 2024</h3>
                         <h1>Acara Perlombaan PIMUS XIII</h1>
                     </div>
                 </li>

@@ -100,7 +100,7 @@ class RegisterController extends Controller
             $user->save();
             
             if($user != null){
-                return redirect()->back()->with(session()->flash('alert-success', 'Akun berhasil dibuat, silahkan verifikasi email gooaya'));
+                return redirect()->route('login')->with(session()->flash('alert-success', 'Akun berhasil dibuat, silahkan verifikasi email gooaya'));
             }
         } catch (\Throwable $th) {
             return redirect()->back()->with(session()->flash('alert-danger', 'Something went wrong!'));

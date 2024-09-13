@@ -10,6 +10,13 @@
             <div class="row text-center">
                 <div class="col-lg-3 col-md-12 col-12"></div>
                 <div class="col-lg-6 col-md-12 col-12">
+                @if (session('alert-success'))
+                    <div class="alert alert-success">
+                        {{ session('alert-success') }}
+                    </div>
+                @endif
+
+                
                     <img src="{{ url('/assets/images/logo/LOGO PIMUS 14-03.png') }}" alt="PIMUS XI" class="mb-4">
                     <form method="POST" action="{{ route('login') }}" class="form-login-register">
                         @csrf

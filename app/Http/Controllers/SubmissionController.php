@@ -30,7 +30,7 @@ class SubmissionController extends Controller
             ->where('user_details.nrp', '=', $user->nrp)
             ->where('user_details.role', '=', 'Ketua')
             ->where('teams.status', '=', 'Terima')
-            ->whereIn('competition_categories.id', [1, 6, 7, 8, 9, 10, 11, 12]) //kompetisi yang berkelompok
+            ->whereIn('competition_categories.id', [1, 6, 7, 8, 9, 11, 12]) //kompetisi yang berkelompok
             ->get();
 
         // dd($group);

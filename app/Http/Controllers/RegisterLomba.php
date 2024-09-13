@@ -15,6 +15,25 @@ class RegisterLomba extends Controller
     {
         try
         {
+            $idLomba = $req->idLomba;
+            if ($idLomba == 8 || $idLomba == 9 || $idLomba == 11) { // lomba pkm maks 20
+                $jumlahPendaftar = DB::table('teams')
+                                    ->where('competition_categories_id', '=', $idLomba)
+                                    ->count();
+    
+                if ($jumlahPendaftar > 20) {
+                    return back()->withErrors(['msg' => 'Pendaftaran untuk lomba ini sudah mencapai batas maksimal 20 peserta']);
+                }
+            }
+            else if ($idLomba == 6) { // lomba poster maks 25
+                $jumlahPendaftar = DB::table('teams')
+                                    ->where('competition_categories_id', '=', $idLomba)
+                                    ->count();
+    
+                if ($jumlahPendaftar > 25) {
+                    return back()->withErrors(['msg' => 'Pendaftaran untuk lomba poster sudah mencapai batas maksimal 25 peserta']);
+                }
+            }
             // Generate idkelompok where is Empty
             $id = 1;
             $group = DB::table('teams')->where('id', '=', $id)->get();
@@ -25,7 +44,7 @@ class RegisterLomba extends Controller
             }
 
             $idkelompok = $req->idKelompok != null ? $req->idKelompok : $id;
-            $idLomba = $req->idLomba;
+            
 
             // Get contest name
             $contest = DB::table('competition_categories')
