@@ -57,6 +57,9 @@
                         $id = $category->id;
                         if ($id != 1 && $id != 5 && $id != 2 && $id != 3) {
                             if ($id == 6) {
+                                if (session('alert-danger')) {
+                                    echo '<div class="alert alert-danger">' . session('alert-danger') . '</div>';
+                                }
                                 echo '
                                                                                                                                                                                                                                                                                                                                                             <input type="text" id="nrpKetua" pattern="[0-9]{9}" onchange="nrp();" title="NRP UBAYA" placeholder="NRP Ketua Kelompok" maxlength="9" required><br>
                                                                                                                                                                                                                                                                                                                         

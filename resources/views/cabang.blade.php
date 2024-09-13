@@ -44,7 +44,6 @@ PIMUS 14 - Registration
                                 <div>
                                     <a href="/login" class="buttons" id="register">Register PKM-Riset Sosial Humaniora</a><br><br>
                                     <a href="/login" class="buttons" id="register">Register PKM-Kewirausahaan</a><br><br>
-                                    <a href="/login" class="buttons" id="register">Register PKM-Karsa Cipta</a><br><br>
                                     <a href="/login" class="buttons" id="register">Register PKM-Pengabdian kepada Masyarakat</a><br><br>
                                     
                                 </div>

@@ -21,17 +21,16 @@ class RegisterLomba extends Controller
                                     ->where('competition_categories_id', '=', $idLomba)
                                     ->count();
     
-                if ($jumlahPendaftar > 20) {
-                    return back()->withErrors(['msg' => 'Pendaftaran untuk lomba ini sudah mencapai batas maksimal 20 peserta']);
+                if ($jumlahPendaftar >= 20) {
+                    return redirect()->back()->with(session()->flash('alert-danger', 'Kuota perlombaan cabang ini telah terpenuhi'));
                 }
             }
             else if ($idLomba == 6) { // lomba poster maks 25
                 $jumlahPendaftar = DB::table('teams')
                                     ->where('competition_categories_id', '=', $idLomba)
                                     ->count();
-    
-                if ($jumlahPendaftar > 25) {
-                    return back()->withErrors(['msg' => 'Pendaftaran untuk lomba poster sudah mencapai batas maksimal 25 peserta']);
+                if ($jumlahPendaftar >= 2) { //ganti ke angka kecil lek mau ngetes limit
+                    return redirect()->back()->with(session()->flash('alert-danger', 'Kuota perlombaan cabang poster telah terpenuhi'));
                 }
             }
             // Generate idkelompok where is Empty
