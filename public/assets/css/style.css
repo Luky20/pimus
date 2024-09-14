@@ -22,6 +22,11 @@
     border-radius: 40px;
 }
 
+.desc-background-pim{
+    background-color: #89242C; 
+    padding: 1rem;
+    border-radius: 40px;
+}
 .aboutus-title {
     margin-top: 150px;
     display: flex;

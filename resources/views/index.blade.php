@@ -125,7 +125,7 @@
         <div class="container">
 
             <div class="mt-5 mb-5 d-flex w-100 justify-content-center">
-                <div class="mt-5 desc-background w-70 text-center ">
+                <div class="mt-5 desc-background-pim w-80 text-center ">
                     <h2 style="color: #F2E399; text-align: center; text-transform: none; font-family: CarnivaleeFreakshow; font-weight:bold; font-size: 50px;"
                         data-aos="zoom-in">pekan
                         ilmiah mahasiswa</h2>
