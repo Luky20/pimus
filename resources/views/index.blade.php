@@ -10,11 +10,12 @@
 @endsection
 @section('content')
     <!-- Main Banner -->
-    <div>
-    <img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt="" style="display:block;">
-    </div>
+    
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="container">
+        <div class="container index-container">
+        <div>
+            <img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt="" style="display:block;">
+        </div>
             @if (session('status'))
                 <div class="alert alert-danger">
                     {{ session('status') }}
@@ -124,7 +125,7 @@
         <div class="container">
 
             <div class="mt-5 mb-5 d-flex w-100 justify-content-center">
-                <div class="mt-3 desc-background w-50 text-center ">
+                <div class="mt-5 desc-background w-70 text-center ">
                     <h2 style="color: #F2E399; text-align: center; text-transform: none; font-family: CarnivaleeFreakshow; font-weight:bold; font-size: 50px;"
                         data-aos="zoom-in">pekan
                         ilmiah mahasiswa</h2>
@@ -165,7 +166,7 @@
 
    <!-- Timeline Pimus -->
    <div class="mt-5 d-flex w-100 justify-content-center">
-        <div class="mt-3 w-75">
+        <div class="mt-5 w-75">
             <img src="{{ asset('assets/images/timeline font-07.png') }}" alt="Timeline Pimus XIV">
         </div>
     </div>
