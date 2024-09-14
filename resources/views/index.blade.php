@@ -8,9 +8,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 @endsection
-
 @section('content')
     <!-- Main Banner -->
+    <div>
+    <img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt="" style="display:block;">
+    </div>
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container">
             @if (session('status'))
@@ -23,7 +25,6 @@
                     <div class="row">
                         <div class="col-lg-6 align-self-center">
                             <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                                <h6><img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt=""> </h6>
                                 <div class="desc-background">
                                     <p style="color: #fff; font-weight: bold;">Magical Carnival: The Art of Incantation</p>
                                     <p style="color: #fff;text-align:justify !important; text-justify:inter-word" font
@@ -32,6 +33,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-6">
                             <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <h6><img src="{{ url('assets/images/web/Bumper.png') }}" alt=""> </h6>
@@ -161,8 +163,8 @@
 
     <!-- End Throwback Pimus -->
 
-    <!-- Timeline Pimus -->
-    <div class="mt-5 d-flex w-100 justify-content-center">
+   <!-- Timeline Pimus -->
+   <div class="mt-5 d-flex w-100 justify-content-center">
         <div class="mt-3 w-75">
             <img src="{{ asset('assets/images/timeline font-07.png') }}" alt="Timeline Pimus XIV">
         </div>

@@ -15,7 +15,7 @@
                             <h1 class="text-lowercase">form registrasi {{ $category->name }}</h1>
                             <button class='btn-mekanisme' data-bs-toggle='modal' data-bs-target='#mekanisme'>Mekanisme
                                 Pendaftaran</button>
-                            <p style="color: #ffde40 "> *) Surat pernyataan terdapat dalam setiap pedoman cabang lomba,
+                            <p style="color: #ebb010 "> *) Surat pernyataan terdapat dalam setiap pedoman cabang lomba,
                                 silahkan
                                 <b>klik mekanisme
                                     pendaftaran</b> untuk informasi lebih lanjut.</p>
@@ -268,7 +268,7 @@
         <div class="modal fade" id="mekanisme" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color:#fff">
+                    <div class="modal-header" style="background-color:#143e4c">
                         <h5 class="modal-title text-white fw-bold" id="exampleModalLabel">Mekanisme Pendaftaran PIMUS XIV
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
