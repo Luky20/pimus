@@ -47,9 +47,8 @@ INSERT INTO `competition_categories` (`id`, `name`, `desc`, `competition_type`) 
 (7, 'Video Digital Pendidikan', 'Video Digital Pendidikan merupakan salah satu cabang lomba yang diadakan oleh PIMUS XIII yang diselenggarakan oleh Universitas Surabaya. Dengan mengangkat tema  “Literasi digital untuk menumbuhkembangkan sumber daya manusia pendidik sebagai talenta nasional menuju Indonesia Maju dengan tatanan kehidupan baru”. Perlombaan ini diharapkan yang menjadi wadah kreativitas mahasiswa dalam menyampaikan pesan yang terkandung dalam karya video sehingga mudah dipahami oleh penonton dan dapat menginspirasi untuk bertindak sesuai dengan tujuan yang telah diharapkan.', 'Kelompok'),
 (8, 'PKM-Riset Sosial Humaniora', 'Program Kreativitas Mahasiswa adalah kegiatan dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) untuk meningkatkan mutu peserta didik agar kelak dapat menjadi anggota masyarakat yang memiliki kemampuan akademis dan/atau profesional yang dapat menerapkan, mengembangkan, dan menyebarluaskan ilmu pengetahuan, teknologi dan/atau kesenian serta memperkaya budaya nasional. Terdapat empat cabang PKM yang diperlombakan pada PIMUS XIII ini meliputi PKM-RSH (Riset Sosial Humaniora), PKM-PM (Pengabdian Masyarakat), PKM-K (Kewirausahaan), dan PKM-KC (Karsa Cipta).', 'Kelompok'),
 (9, 'PKM-Kewirausahaan', 'Program Kreativitas Mahasiswa adalah kegiatan dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) untuk meningkatkan mutu peserta didik agar kelak dapat menjadi anggota masyarakat yang memiliki kemampuan akademis dan/atau profesional yang dapat menerapkan, mengembangkan, dan menyebarluaskan ilmu pengetahuan, teknologi dan/atau kesenian serta memperkaya budaya nasional. Terdapat empat cabang PKM yang diperlombakan pada PIMUS XIII ini meliputi PKM-RSH (Riset Sosial Humaniora), PKM-PM (Pengabdian Masyarakat), PKM-K (Kewirausahaan), dan PKM-KC (Karsa Cipta).', 'Kelompok'),
-(10, 'PKM-Karsa Cipta', 'Program Kreativitas Mahasiswa adalah kegiatan dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) untuk meningkatkan mutu peserta didik agar kelak dapat menjadi anggota masyarakat yang memiliki kemampuan akademis dan/atau profesional yang dapat menerapkan, mengembangkan, dan menyebarluaskan ilmu pengetahuan, teknologi dan/atau kesenian serta memperkaya budaya nasional. Terdapat empat cabang PKM yang diperlombakan pada PIMUS XIII ini meliputi PKM-RSH (Riset Sosial Humaniora), PKM-PM (Pengabdian Masyarakat), PKM-K (Kewirausahaan), dan PKM-KC (Karsa Cipta).', 'Kelompok'),
-(11, 'PKM-Pengabdian Kepada Masyarakat', 'Program Kreativitas Mahasiswa adalah kegiatan dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) untuk meningkatkan mutu peserta didik agar kelak dapat menjadi anggota masyarakat yang memiliki kemampuan akademis dan/atau profesional yang dapat menerapkan, mengembangkan, dan menyebarluaskan ilmu pengetahuan, teknologi dan/atau kesenian serta memperkaya budaya nasional. Terdapat empat cabang PKM yang diperlombakan pada PIMUS XIII ini meliputi PKM-RSH (Riset Sosial Humaniora), PKM-PM (Pengabdian Masyarakat), PKM-K (Kewirausahaan), dan PKM-KC (Karsa Cipta).', 'Kelompok'),
-(12, 'Ide Bisnis', 'Ide Bisnis merupakan salah satu cabang lomba dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) yang tidak hanya mengevaluasi kemampuan akademik dan nalar mahasiswa dalam bidang ilmu, tetapi juga merupakan sebuah upaya untuk mendekatkan kemitraan antara akademisi, dunia usaha, dan pemerintah. Perlombaan ide bisnis menjadi platform yang relevan untuk mendorong kreativitas, inovasi, dan pengembangan wirausaha.', 'Kelompok');
+(10, 'PKM-Pengabdian Kepada Masyarakat', 'Program Kreativitas Mahasiswa adalah kegiatan dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) untuk meningkatkan mutu peserta didik agar kelak dapat menjadi anggota masyarakat yang memiliki kemampuan akademis dan/atau profesional yang dapat menerapkan, mengembangkan, dan menyebarluaskan ilmu pengetahuan, teknologi dan/atau kesenian serta memperkaya budaya nasional. Terdapat empat cabang PKM yang diperlombakan pada PIMUS XIII ini meliputi PKM-RSH (Riset Sosial Humaniora), PKM-PM (Pengabdian Masyarakat), PKM-K (Kewirausahaan), dan PKM-KC (Karsa Cipta).', 'Kelompok'),
+(11, 'Ide Bisnis', 'Ide Bisnis merupakan salah satu cabang lomba dalam Pekan Ilmiah Mahasiswa Universitas Surabaya (PIMUS XIII) yang tidak hanya mengevaluasi kemampuan akademik dan nalar mahasiswa dalam bidang ilmu, tetapi juga merupakan sebuah upaya untuk mendekatkan kemitraan antara akademisi, dunia usaha, dan pemerintah. Perlombaan ide bisnis menjadi platform yang relevan untuk mendorong kreativitas, inovasi, dan pengembangan wirausaha.', 'Kelompok');
 
 -- --------------------------------------------------------
 
@@ -68,7 +67,7 @@ CREATE TABLE `dates` (
 --
 
 INSERT INTO `dates` (`id`, `open`, `close`) VALUES
-(1, '2022-11-07 00:00:00', '2023-12-22 00:00:00');
+(1, now(), '2024-11-04 23:59:59');
 
 -- --------------------------------------------------------
 
@@ -81,18 +80,6 @@ CREATE TABLE `password_resets` (
   `token` varchar(255) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data untuk tabel `password_resets`
---
-
-INSERT INTO `password_resets` (`email`, `token`, `created_at`) VALUES
-('s160421098@student.ubaya.ac.id', '$2y$10$ZnfWk3HpkeK6WJbM515o7.4OR5BUp8PGpJAUwVodwZ0kwthLvM/e2', '2022-11-04 12:15:36'),
-('s120122041@student.ubaya.ac.id', '$2y$10$t4T1kGjw7T70tM.XF/KC6O8sSvAfz0lwG4VWJBh1avG/dVbv2UqOC', '2022-11-04 12:15:49'),
-('s160220019@student.ubaya.ac.id', '$2y$10$2e/UsrXJcPmZYVNddl1m0OxPq9mTKXU8QohbSjSgiLj5W72nWJ3Mq', '2022-11-13 11:41:47'),
-('s180222001@student.ubaya.ac.id', '$2y$10$V4VxzteZVeGpvRhJfGvLqeHluYhjsycvSpdHW4q.gLeejoEgOgdne', '2022-11-16 13:30:25'),
-('s160422016@student.ubaya.ac.id', '$2y$10$7vLetd8BX8/ebNE.OoogheZyQknmgqW3KtoPV6eZzN1y.Gr7GVihS', '2022-12-05 12:14:26'),
-('s110121020@student.ubaya.ac.id', '$2y$10$1dtGHEgUzGVaKvkvLh7cL.o0B030KpNvEH6w5NgkZtSJS/WUjhrfe', '2022-12-07 19:38:17');
 
 -- --------------------------------------------------------
 
@@ -123,14 +110,6 @@ CREATE TABLE `submission_dates` (
   `link_form` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data untuk tabel `submission_dates`
---
-
-INSERT INTO `submission_dates` (`id`, `start_date`, `end_date`, `link_form`) VALUES
-(1, '2022-09-16 06:12:19', '2023-12-06 00:00:00', '...');
-
--- --------------------------------------------------------
 
 --
 -- Struktur dari tabel `teams`
@@ -146,15 +125,6 @@ CREATE TABLE `teams` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data untuk tabel `teams`
---
-
-INSERT INTO `teams` (`id`, `competition_categories_id`, `registration_form`, `statement_letter`, `status`, `message`) VALUES
-(1, 6, 'storage/formPendaftaran/Poster Digital Pendidikan/1/Antonius Yabes Sieman_160421119.pdf', 'storage/suratPernyataan/Poster Digital Pendidikan/1/Surat Pernyataan_Antonius_160421119.pdf', 'Terima', '');
-
--- --------------------------------------------------------
-
---
 -- Struktur dari tabel `users`
 --
 
@@ -168,53 +138,6 @@ CREATE TABLE `users` (
   `email_verified_at` timestamp NULL DEFAULT NULL,
   `remember_token` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data untuk tabel `users`
---
-
-INSERT INTO `users` (`nrp`, `email`, `name`, `password`, `vote_tickets`, `role`, `email_verified_at`, `remember_token`) VALUES
-('110121020', 's110121020@student.ubaya.ac.id', 'Louise Julyan Sutan', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-03 05:41:30', NULL),
-('110121034', 's110121034@student.ubaya.ac.id', 'nicole christianto', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 13:40:17', NULL),
-('110122273', 's110122273@student.ubaya.ac.id', 'Nabila Aura Tinka', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 0, 'Sekre', '2022-11-04 13:34:16', NULL),
-('110122282', 's110122282@student.ubaya.ac.id', 'Sella Andini Margareta', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 0, 'Sekre', '2022-11-04 13:26:01', NULL),
-('120120043', 's120120043@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 1, 'Sekre', '2022-11-04 13:24:06', NULL),
-('120120072', 's120120072@student.ubaya.ac.id', 'Gavriel Heavenly Blessing Torar', '$2y$10$Wh.7407vWShsczUJDDVCLuMaw61e3te/lYQB9hH1J4RWYdkvNkK1G', 3, 'Sekre', '2022-11-10 08:03:27', NULL),
-('120121048', 's120121048@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-10-12 04:09:48', NULL),
-('120121161', 's120121161@student.ubaya.ac.id', 'Aldi Christian Phuk', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-09 01:48:31', NULL),
-('120122144', 's120122144@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-11-04 12:24:02', NULL),
-('130220154', 's130220154@student.ubaya.ac.id', 'Acara', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 2, 'Panitia', '2022-11-04 13:34:16', NULL),
-('130222117', 's130222117@student.ubaya.ac.id', 'Acara', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 13:34:16', NULL),
-('130320160', 's130320160@student.ubaya.ac.id', 'Trixie Sheryl Azalia', '$2y$10$eGzwA8/istgVhoa0U2RvFOZXqMJIfeZwl1nJq5OYagOBQIQhTPgEq', 3, 'Sekre', '2022-11-04 13:34:59', 'ZtcwNcrq5crLBOuhIenwkBaxj6abT9cb6lWCf3TFOtDwN87h68llOz20spkF'),
-('150120023', 's150120023@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-10-12 04:09:48', NULL),
-('150121025', 's150121025@student.ubaya.ac.id', 'Anastasia Jesseline', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-11-04 12:20:22', NULL),
-('150121027', 's150121027@student.ubaya.ac.id', 'Stefani Lusia Litmantoro', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-11-04 12:19:18', NULL),
-('150121034', 's150121034@student.ubaya.ac.id', 'Lea Victoria Setyawan', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-11-04 13:39:56', NULL),
-('150121036', 's150121036@student.ubaya.ac.id', 'Shaundra Evangelyn Jap', '$2y$10$nI90naTyttTJ15MH34qn3.DWkLu.efqiBnLM.9V8vHDoNLtlQQKem', 0, 'Panitia', '2022-11-04 12:43:26', 'Jwn68piC32g1aKXty5Ry4UONMHdGBKOaFkWeo1h9e2uWghhj1sJJrL6hpwha'),
-('150121166', 's150121166@student.ubaya.ac.id', 'Sandhy, Olivia', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 12:54:04', NULL),
-('150121184', 's150121184@student.ubaya.ac.id', 'Willingda Tinshia Patty', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 12:44:32', NULL),
-('150121190', 's150121190@student.ubaya.ac.id', 'Glory Ketshia Alase', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-01 02:16:08', NULL),
-('150122019', 's150122019@student.ubaya.ac.id', 'Acara', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 13:34:16', NULL),
-('150122022', 's150122022@student.ubaya.ac.id', 'Gisela Geraldine Pamula', '$2y$10$L.vTmty4ryQyq8db3ObE5OOisFZEZto.aGNxOX8CtD7m9v5XQPSf.', 2, 'Panitia', '2022-11-10 05:32:20', 'OjmtEN6QPeu3VAkBwUys7stYI6muWF5eZOcpNza32HZHcJ2WdDRl1RYXD708'),
-('150122138', 's150122138@student.ubaya.ac.id', 'Rachma Diana Arief', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-08 17:24:01', NULL),
-('150122209', 's150122209@student.ubaya.ac.id', 'Sean Sebastian', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 13:37:06', NULL),
-('150122256', 's150122256@student.ubaya.ac.id', 'Chiara Hanifah', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-04 13:37:04', NULL),
-('160221001', 's160221001@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-10-12 04:09:48', NULL),
-('160222026', 's160222026@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 0, 'Sekre', '2022-10-12 04:09:48', NULL),
-('160320038', 's160320038@student.ubaya.ac.id', 'Sekret', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-10-12 04:09:48', NULL),
-('160321014', 's160321014@student.ubaya.ac.id', 'Monica Natalia', '$2y$10$VA4sEoCSNofpdBvZpqa5ROiAUgzQp6WAhhNVoZPzM6rnuAwN8klUm', 3, 'Panitia', '2022-11-01 02:24:59', 'fvnTMTpm0kuPk7vSuhAiL54TTvrly2oOECJTjO9CblH3ObtcFM8jJbTeW7Pi'),
-('160322068', 's160322068@student.ubaya.ac.id', 'Bella Nurafni Maulidina', '$2y$10$KgbLm57F5L8aPWM7kInZ1u.qtpFlDnpKQyF5mrcfZoYTdQWcSQ8Wq', 1, 'Sekre', '2022-11-04 13:44:39', 'vxzK6UKamP3W7O6uwkkXwQynBn7zkR0d91WFwVamkLPUiQjQU6rDjiAE9tdx'),
-('160420077', 's160420077@student.ubaya.ac.id', 'Muhammad Ikhsan', '$2y$10$hh7HDGsER9tm.njxHLeDruXI5w.gh3UwImV/nTxRXsVXBlO3QYqhO', 3, 'Sekre', '2022-11-08 09:43:37', 'WPjFZqBQBu8m4jOXjuBxRHzEZgA5fbTx8HWiOqAynllNEly1WF3iEugne4QI'),
-('160421066', 's160421066@student.ubaya.ac.id', 'Gregorius Mario', '$2a$04$dXiiLHBXdcVXxKRLiHLc8.E/wm8ZbBJ.JvAHYaBYN2kVNkjDGprs.', 3, 'Sekre', '2022-11-04 12:21:46', NULL),
-('160421101', 's160320004@student.ubaya.ac.id', 'Christopher Andrew', '$2a$10$GPA4.WRCJjJgWRD3fCpPQOvXaayki2QLtMywjexCFE8vBPA19k1WO', 3, 'Umum', '2022-11-04 13:08:13', NULL),
-('160421117', 's160320067@student.ubaya.ac.id', 'Freddy christianto', '$2a$10$GPA4.WRCJjJgWRD3fCpPQOvXaayki2QLtMywjexCFE8vBPA19k1WO', 3, 'Umum', '2022-11-01 02:20:44', NULL),
-('160421119', 's160421119@student.ubaya.ac.id', 'Antonius Yabes Sieman', '$2a$10$0.P3EFCKhKf.MaxYdCDBXeHQUelkFHK1X9NbGUcF6viDST.K2oIt2', 3, 'Umum', '2022-11-01 02:20:44', NULL),
-('160421120', 's160421023@student.ubaya.ac.id', 'Lex', '$2a$10$GPA4.WRCJjJgWRD3fCpPQOvXaayki2QLtMywjexCFE8vBPA19k1WO', 3, 'Umum', NULL, NULL),
-('160721023', 's160721023@student.ubaya.ac.id', 'Sekret', '$2a$10$hWxhjnBRvozFGFfq8qmIouBs1K5G4MQh84JBM5UUud2goLDvg1YL6', 3, 'Sekre', '2022-10-12 04:09:48', NULL),
-('160721047', 's160721047@student.ubaya.ac.id', 'Stiven Suhendra', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 3, 'Panitia', '2022-11-10 09:03:21', NULL),
-('180122011', 's180122011@student.ubaya.ac.id', 'Kezia aurelia', '$2a$12$rKQtuLk3ChOwcW1VgFBd3.VueE9gi7uh5PeTPW1eHj.e6FhDHYJ66', 0, 'Sekre', '2022-11-04 13:15:40', NULL);
-
--- --------------------------------------------------------
 
 --
 -- Struktur dari tabel `user_details`
@@ -233,18 +156,6 @@ CREATE TABLE `user_details` (
   `achievement_list` varchar(120) DEFAULT NULL,
   `competition_type` enum('Matematika','Fisika','Kimia','Biologi','Statistika') DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data untuk tabel `user_details`
---
-
-INSERT INTO `user_details` (`nrp`, `teams_id`, `role`, `id_card`, `self_photo`, `line`, `phone_number`, `gpa_recap`, `borang`, `achievement_list`, `competition_type`) VALUES
-('160421101', 1, 'Anggota', 'storage/ktm/Poster/187/KTM_Christopher Andrew_160421101.pdf', 'storage/pasFoto/Poster/187/Foto_Christopher Andrew_160421101.png', NULL, NULL, NULL, NULL, NULL, NULL),
-('160421119', 1, 'Ketua', 'storage/ktm/Poster/187/KTM_Antonius Yabes_160421119.pdf', 'storage/pasFoto/Poster/187/Foto_Antonius Yabes Sieman_160421119.png', 'tokurogt', '082255617244', NULL, NULL, NULL, NULL);
-
---
--- Indexes for dumped tables
---
 
 --
 -- Indeks untuk tabel `competition_categories`
