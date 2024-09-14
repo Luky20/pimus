@@ -131,7 +131,7 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="left-image drive-responsive">
-                        <iframe src="https://drive.google.com/file/d/1_ZlZre5YX7lt7cqatA618Igm9CUYuywM/preview"
+                        <iframe src="https://drive.google.com/file/d/1tOjvGIXU4O_pJ5MuVx-faQmIomrfqUwZ/preview"
                             width="640" height="400" allow="autoplay"></iframe>
                     </div>
                 </div>
