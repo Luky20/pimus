@@ -173,31 +173,31 @@
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">7 Oktober2024-4 November 2024</h3>
+                        <h3 style="color: #ffffff" class="date">7 Oktober 2024 - 4 November 2024</h3>
                         <h1 class="text-center">Open Registration </h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">5-8 November 2024</h3>
+                        <h3 style="color: #ffffff" class="date">5 - 8 November 2024</h3>
                         <h1 class="text-center">Technical Meeting</h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">5-8 November 2024</h3>
+                        <h3 style="color: #ffffff" class="date">5 - 8 November 2024</h3>
                         <h1>Klinik PKM, PILMAPRES, dan Video Digital Pendidikan</h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">15 November 2023</h3>
+                        <h3 style="color: #ffffff" class="date">Tanggal menyusul</h3>
                         <h1>Pengumpulan Proposal untuk di Revisi (PKM dan Pilmapres)</h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">24 November 2023</h3>
+                        <h3 style="color: #ffffff" class="date">Tanggal menyusul</h3>
                         <h1>Pengumpulan Final Proposal (PKM dan Pilmapres)</h1>
                     </div>
                 </li>
@@ -213,7 +213,7 @@
                 --}}
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">9 Desember-13 Desember 2024</h3>
+                        <h3 style="color: #ffffff" class="date">9 Desember - 13 Desember 2024</h3>
                         <h1>Acara Perlombaan PIMUS XIII</h1>
                     </div>
                 </li>
