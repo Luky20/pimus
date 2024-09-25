@@ -13,7 +13,7 @@
     
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container index-container">
-        <div>
+        <div >
             <img src="{{ url('assets/images/logo/LOGO PIMUS 14-03.png') }}" alt="" style="display:block;">
         </div>
             @if (session('status'))

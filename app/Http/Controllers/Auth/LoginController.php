@@ -91,7 +91,16 @@ class LoginController extends Controller
     {
         if (!($user->hasVerifiedEmail())){
             $user->sendEmailVerificationNotification();
+            return redirect()->route('verification.notice');
         }
-        return redirect()->route('home');
+        else {
+            if ($user->role == 'Sekre' || $user->role == 'Acara' || $user->role == 'Panitia' || $user->role == 'Admin') {
+                return redirect()->route('admin.index');
+            } 
+            else {
+                return redirect()->route('home');
+            }
+        }
+        
     }
 }

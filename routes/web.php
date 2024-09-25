@@ -75,6 +75,8 @@ Route::get('/email/verify/{id}/{hash}', [\App\Http\Controllers\Auth\Verification
     
 Route::get('/registration/cabang', 'RegisterLomba@showCabang');
 Route::get('/home', 'HomeController@index')->name('home');
+
+
 Route::get('/registration', 'RegisterLomba@showRegistration');
 
 Route::get('/exhibition/{idlomba}', 'ExhibitionController@index')->name('exhibition');
