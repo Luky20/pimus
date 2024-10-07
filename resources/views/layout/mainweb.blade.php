@@ -70,7 +70,7 @@
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a> --}}
                             <a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a>
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a> --}}
-                        </div> -->
+                        </div> 
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Exhibition
                         </a>
@@ -78,7 +78,7 @@
                             {{-- <li><a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a></li> --}}
                             <li><a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a></li>
                             {{-- <li><a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a></li> --}}
-                        </ul>
+                        </ul> -->
                     </li>
                     </li>
                     @endif

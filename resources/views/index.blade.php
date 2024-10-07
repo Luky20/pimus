@@ -147,10 +147,10 @@
                             oleh Direktorat Pengembangan Kemahasiswaan Universitas Surabaya dengan tujuan untuk
                             menyaring
                             mahasiswa/i terbaik UBAYA
-                            untuk menjadi perwakilan pada kompetisi nasional. Di tahun yang keempatbelas ini, PIMUS
+                            untuk menjadi perwakilan pada kompetisi nasional. Di tahun yang kesebelas ini, PIMUS
                             memiliki 8
                             cabang lomba yang terdiri
-                            dari PKM 3 Bidang (PKM RSH, PKM K, PKM PM), Pemilihan Mahasiswa
+                            dari PKM 4 Bidang (PKM RSH, PKM K, PKM PM, PKM KC), Pemilihan Mahasiswa
                             Berprestasi, Video Digital Pendidikan, Ide Bisnis, Poster Digital Pendidikan,
                             Kompetisi MIPAS, Debat Bahasa Inggris, dan Debat Bahasa Indonesia. Yuk daftarkan dirimu
                             sekarang, dapatkan pengalaman berharga, kesempatan menjadi
@@ -194,26 +194,62 @@
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">Tanggal menyusul</h3>
-                        <h1>Pengumpulan Proposal untuk di Revisi (PKM dan Pilmapres)</h1>
+                        <h3 style="color: #ffffff" class="date">21 November 2024</h3>
+                        <h1>Pengumpulan Proposal untuk di Revisi (Ide Bisnis)</h1>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">Tanggal menyusul</h3>
-                        <h1>Pengumpulan Final Proposal (PKM dan Pilmapres)</h1>
+                        <h3 style="color: #ffffff" class="date">23 November 2024</h3>
+                        <h1>Pengumpulan Proposal untuk di Revisi (PKM)</h1>
                     </div>
                 </li>
-                {{--
+                <li>
+                    <div class="timeline-content">
+                        <h3 style="color: #ffffff" class="date">3 Desember 2024</h3>
+                        <h1>Pengumpulan Final Proposal (PKM & Ide Bisnis)</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 style="color: #ffffff" class="date">4 Desember 2024</h3>
+                        <h1>Pengumpulan Karya Poster + Kelengkapannya (POSTER)</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 style="color: #ffffff" class="date">5 Desember 2024</h3>
+                        <h1>Pengumpulan Surat Pernyataan Orisinalitas, Gagasan Kreatif/Naskah Produk Inovatif, PPT Gagasan Kreatif/Naskah Produk Inovatif, dan Video (PILMAPRES)</h1>
+                    </div>
+                </li>
 
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">30 Oktober 2021</h3>
-                        <h1>Technical Meeting Debat Indonesia, Debat Inggris, K-MIPA, Poster</h1>
+                        <h3 style="color: #ffffff" class="date">6 Desember 2024</h3>
+                        <h1>Pengumpulan hasil karya beserta kelengkapannya (Video Digital Pendidikan)</h1>
                     </div>
                 </li>
 
-                --}}
+                <li>
+                    <div class="timeline-content">
+                        <h3 style="color: #ffffff" class="date">9 Desember 2024</h3>
+                        <h1>Upload Video di Instagram (PILMAPRES)</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 style="color: #ffffff" class="date">10 Desember 2024</h3>
+                        <h1>Pengunggahan poster bagi tim finalis (POSTER)</h1>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="timeline-content">
+                        <h3 style="color: #ffffff" class="date">10 Desember 2024</h3>
+                        <h1>Pengunggahan hasil karya di instagram (Video Digital Pendidikan)</h1>
+                    </div>
+                </li>
+
                 <li>
                     <div class="timeline-content">
                         <h3 style="color: #ffffff" class="date">9 Desember - 13 Desember 2024</h3>
