@@ -277,7 +277,7 @@
                         <p>
                             1. Peserta melengkapi berkas yang dibutuhkan untuk pendaftaran sesuai dengan pedoman cabang/PKM
                             yang
-                            diikuti. Pedoman dapat dilihat <a href='https://tinyurl.com/PedomanPimus13'
+                            diikuti. Pedoman dapat dilihat <a href='https://ubaya.id/PedomanPIMUS14'
                                 target='_blank'>disini</a>.<br>
                             2. Pendaftaran dapat dilakukan pada website <a href='https://ubayapimus.com'
                                 target='_blank'>ubayapimus.com</a><br>
@@ -349,6 +349,7 @@
                 <label>Pas Foto 4x6 (.png / .jpg)</label><br>
                 <input type="file" name="pasFoto${i}" class="inputLomba" accept=".png, .jpg" required><br>
                 <label class="label-keterangan">*) format nama file: Foto_Nama_NRP</label><br>
+                <label class="label-keterangan">*) Pas foto formal menggunakan latar belakang polos dan tidak ada logo instansi</label><br>
                 <label>Scan KTM / Screenshot KTM Online(.pdf)</label><br>
                 <input type="file" name="ktm${i}" class="inputLomba" accept=".pdf" required><br>
                 <label class="label-keterangan">*) Screenshot MyUbaya pada bagian Kartu Studi Mahasiswa (dalam fitur KS/KHS) wajib terdapat Nama dan NRP
