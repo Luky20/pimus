@@ -23,7 +23,7 @@
                 <p></p>
                 <div class='col-lg-6 offset-lg-3 mt-5'>
                     <div class='section-heading  wow bounceIn' data-wow-duration='1s' data-wow-delay='0.2s'>
-                        <h2>cabang lomba</h2>
+                        <h2>cabang<br><br>lomba</h2>
                         <button class='btn-mekanisme' data-bs-toggle='modal' data-bs-target='#mekanisme'>Mekanisme
                             Pendaftaran</button>
                     </div>
@@ -38,8 +38,8 @@
                                 <p>Kompetisi yang mengasah kemampuan berpikir kritis dan berargumentasi dengan menggunakan
                                     Bahasa Inggris. </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Debat Inggris.png' alt=''>
+                            <div class='showed-content'style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/Debat Inggris.png' alt=''style="max-width:100%">
                             </div>
                         </div>
                     </a>
@@ -52,8 +52,8 @@
                                 <p>Kompetisi mahasiswa/i UBAYA yang memiliki keunggulan bidang akademik maupun non akademik.
                                 </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Pilmapres.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/pilmapres.png' alt='' style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -67,8 +67,8 @@
                                     Bahasa Indonesia.
                                 </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Debat Indonesia.png' alt=''>
+                            <div class='showed-content'style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/Debat Indonesia.png' alt=''style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -81,8 +81,8 @@
                                 <p>Kompetisi untuk menuliskan ide kreatif berupa respons intelektual atas persoalan aktual.
                                 </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/icon cabang/Karya Tulis Ilmiah.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/icon cabang/Karya Tulis Ilmiah.png' alt='' style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -95,8 +95,8 @@
                                 <h4>K-MIPAS</h4>
                                 <p>Kompetisi di bidang Matematika, Ilmu Pengetahuan Alam dan Statisik. </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Kompetisi MIPAS.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/Kompetisi MIPAS.png' alt=''style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -108,8 +108,8 @@
                                 <h4>Video Digital Pendidikan</h4>
                                 <p>Kompetisi membuat suatu karya video pendidikan sesuai dengan tema yang ditentukan. </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Video Digital Pendidikan.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/Video Digital Pendidikan.png' alt=''style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -122,8 +122,8 @@
                                 <p>Kompetisi untuk menyampaikan informasi dalam bentuk visual sesuai dengan tema yang
                                     ditentukan. </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Poster Digital Pendidikan.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/Poster Digital Pendidikan.png' alt='' style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -137,8 +137,8 @@
                                     masyarakat luas.
                                 </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/PKM-Riset Sosial Humaniora.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/PKM-Riset Sosial Humaniora.png' alt='' style="max-width:100%;">
                             </div>
                         </div>
                     </a>
@@ -152,8 +152,8 @@
                                     masyarakat luas.
                                 </p>
                             </div>
-                            <div class='showed-content'>
-                                <img src='/assets/images/logo-cabang/Ide Bisnis.png' alt=''>
+                            <div class='showed-content' style="padding:10px;">
+                                <img src='/assets/images/logo-cabang/Ide Bisnis.png' alt='' style="max-width:100%;">
                             </div>
                         </div>
                     </a>

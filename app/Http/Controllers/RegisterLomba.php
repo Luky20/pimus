@@ -29,7 +29,7 @@ class RegisterLomba extends Controller
                 $jumlahPendaftar = DB::table('teams')
                                     ->where('competition_categories_id', '=', $idLomba)
                                     ->count();
-                if ($jumlahPendaftar >= 2) { //ganti ke angka kecil lek mau ngetes limit
+                if ($jumlahPendaftar >= 30) { //ganti ke angka kecil lek mau ngetes limit
                     return redirect()->back()->with(session()->flash('alert-danger', 'Kuota perlombaan cabang poster telah terpenuhi'));
                 }
             }
