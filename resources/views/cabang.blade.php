@@ -20,12 +20,11 @@ PIMUS 14 - Registration
             $timeNow = date('Y-m-d H:i:s');
             $timeNow = strtotime($timeNow);
 
-            // if ($timeNow > strtotime($date[0]->open) && $timeNow < strtotime($date[0]->close))
-            //     $open = true;
-            // else
-            //     $open = false;
+            if ($timeNow > strtotime($date[0]->open) && $timeNow < strtotime($date[0]->close))
+                $open = true;
+            else
+                $open = false;
 
-            //SEMENTARA TRUE IN SMUA
             $open = true;
 
             $category_name = $category->name == 'PKM-Riset Sosial Humaniora' ? 'Program Kreativitas Mahasiswa' : $category->name;
