@@ -37,10 +37,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="{{ url('assets/images/logo/logo-ubaya.png') }}" alt="Logo Ubaya"
-                    style="height: 65px; width: 65px;">
-                <img src="{{ url('assets/images/logo/logo-pimus.png') }}" alt="Logo Pimus"
-                    style="height: 70px; width: 70px;  ">
+                <img src="{{ url('assets/images/logo/Konfigurasi Logo PIMUS.png') }}" alt="Logo Ubaya"
+                    style="height: 65px; width: 280px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -73,14 +71,14 @@
                             <a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a>
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a> --}}
                         </div> -->
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Exhibition
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            {{-- <li><a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a></li> --}}
-                            <li><a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a></li>
-                            {{-- <li><a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a></li> --}}
-                        </ul>
+                        <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+                        <!--    Exhibition-->
+                        <!--</a>-->
+                        <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+                        <!--    {{-- <li><a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a></li> --}}-->
+                        <!--    <li><a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a></li>-->
+                        <!--    {{-- <li><a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a></li> --}}-->
+                        <!--</ul>-->
                     </li>
                     </li>
                     @endif
