@@ -174,7 +174,7 @@
                 <div class="modal-body">
                     <p>
                         1. Peserta melengkapi berkas yang dibutuhkan untuk pendaftaran sesuai dengan pedoman cabang/PKM yang
-                        diikuti. Pedoman dapat dilihat <a href='https://tinyurl.com/PedomanPimus13'
+                        diikuti. Pedoman dapat dilihat <a href='https://ubaya.id/PedomanPIMUS14'
                             target='_blank'>disini</a>.<br>
                         2. Pendaftaran dapat dilakukan pada website <a href='https://ubayapimus.com'
                             target='_blank'>ubayapimus.com</a><br>
