@@ -70,7 +70,7 @@
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',4) }}">KTI</a> --}}
                             <a class="dropdown-item" href="{{ route('exhibition',6) }}">Poster</a>
                             {{-- <a class="dropdown-item" href="{{ route('exhibition',7) }}">Video Digital Pendidikan</a> --}}
-                        </div> 
+                        </div>
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Exhibition
                         </a>
@@ -118,8 +118,24 @@
         @yield('content')
     </div>
     <footer>
+        <br>
         <div class="container">
             <div class="row">
+                <div class="container text-center my-5 col-lg-12 wow fadeIn sponsor-con" data-wow-duration="1s" data-wow-delay="0.25s">
+                    <h2 style="color: white; text-align: center; margin-bottom: 40px;">Sponsors</h2>
+
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
+                            <img src="{{ url('assets/images/logo/sponsor/tanrise-logo.png') }}" class="img-fluid" alt="Tanrise logo" style="background: white;">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
+                            <img src="{{ url('assets/images/logo/sponsor/spikoe-logo.png') }}" class="img-fluid" alt="Spikoe logo" style="background: white;">
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
                     <p style="color: #fdfdfd">© Copyright 2024 SI PIMUS XIV Committee.</p>
 
