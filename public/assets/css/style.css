@@ -238,11 +238,11 @@
 }
 
 .logo-hover {
-    transition: transform 0.3s ease; /* Menambahkan transisi agar perubahan scale halus */
+    transition: transform 0.3s ease; 
 }
     
 .logo-hover:hover {
-    transform: scale(1.1); /* Membuat logo membesar sedikit saat dihover */
+    transform: scale(1.1);
 }
 
 .accordion-faq .icon {
