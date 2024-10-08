@@ -147,10 +147,10 @@
                             oleh Direktorat Pengembangan Kemahasiswaan Universitas Surabaya dengan tujuan untuk
                             menyaring
                             mahasiswa/i terbaik UBAYA
-                            untuk menjadi perwakilan pada kompetisi nasional. Di tahun yang kesebelas ini, PIMUS
-                            memiliki 8
+                            untuk menjadi perwakilan pada kompetisi nasional. Di tahun yang ke-14 ini, PIMUS
+                            memiliki 10
                             cabang lomba yang terdiri
-                            dari PKM 4 Bidang (PKM RSH, PKM K, PKM PM, PKM KC), Pemilihan Mahasiswa
+                            dari PKM 3 Bidang (PKM RSH, PKM K, PKM PM), Pemilihan Mahasiswa
                             Berprestasi, Video Digital Pendidikan, Ide Bisnis, Poster Digital Pendidikan,
                             Kompetisi MIPAS, Debat Bahasa Inggris, dan Debat Bahasa Indonesia. Yuk daftarkan dirimu
                             sekarang, dapatkan pengalaman berharga, kesempatan menjadi
