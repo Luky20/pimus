@@ -121,20 +121,18 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="container text-center my-5 col-lg-12 wow fadeIn sponsor-con" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <h2 style="color: white; text-align: center; margin-bottom: 40px;">Sponsors</h2>
+            <div class="container text-center my-5 col-lg-12 wow fadeIn sponsor-con" data-wow-duration="1s" data-wow-delay="0.25s">
+                <h2 style="color: white; text-align: center; margin-bottom: 40px; margin-bottom:60px;">Sponsored By :</h2>
 
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
-                            <img src="{{ url('assets/images/logo/sponsor/tanrise-logo.png') }}" class="img-fluid" alt="Tanrise logo" style="background: white;">
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
-                            <img src="{{ url('assets/images/logo/sponsor/spikoe-logo.png') }}" class="img-fluid" alt="Spikoe logo" style="background: white;">
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <img src="{{ url('assets/images/logo/sponsor/tanrise-logo.png') }}" class="img-fluid logo-hover" alt="Tanrise logo" style="background: white; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 80%;">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <img src="{{ url('assets/images/logo/sponsor/spikoe-logo.png') }}" class="img-fluid logo-hover" alt="Spikoe logo" style="background: black; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 80%;">
                     </div>
                 </div>
-
-
+            </div>
 
                 <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
                     <p style="color: #fdfdfd">© Copyright 2024 SI PIMUS XIV Committee.</p>
