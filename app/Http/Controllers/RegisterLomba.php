@@ -19,15 +19,17 @@ class RegisterLomba extends Controller
             if ($idLomba == 8 || $idLomba == 9 || $idLomba == 11) { // lomba pkm maks 20
                 $jumlahPendaftar = DB::table('teams')
                                     ->where('competition_categories_id', '=', $idLomba)
+                                    ->where('status', '=', 'Terima')
                                     ->count();
     
                 if ($jumlahPendaftar >= 20) {
                     return redirect()->back()->with(session()->flash('alert-danger', 'Kuota perlombaan cabang ini telah terpenuhi'));
                 }
             }
-            else if ($idLomba == 6) { // lomba poster maks 25
+            else if ($idLomba == 6) { // lomba poster maks 30
                 $jumlahPendaftar = DB::table('teams')
                                     ->where('competition_categories_id', '=', $idLomba)
+                                    ->where('status', '=', 'Terima')
                                     ->count();
                 if ($jumlahPendaftar >= 30) { //ganti ke angka kecil lek mau ngetes limit
                     return redirect()->back()->with(session()->flash('alert-danger', 'Kuota perlombaan cabang poster telah terpenuhi'));
