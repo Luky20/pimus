@@ -225,7 +225,7 @@
     
                                         <div class="">
                                             <label class="form-label">Message :</label>
-                                            <textarea class="form-control" name="detailMessage" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px">{{ $group->pesan ?? '' }}</textarea>
+                                            <textarea class="form-control" name="detailMessage" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px">{{ $group->message ?? '' }}</textarea>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
