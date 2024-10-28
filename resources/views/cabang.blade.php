@@ -43,6 +43,7 @@ PIMUS 14 - Registration
                                 <div>
                                     <a href="/login" class="buttons" id="register">Register PKM-Riset Sosial Humaniora</a><br><br>
                                     <a href="/login" class="buttons" id="register">Register PKM-Kewirausahaan</a><br><br>
+                                    <a href="/login" class="buttons" id="register">Register PKM-Riset Eksakta</a><br><br>
                                     <a href="/login" class="buttons" id="register">Register PKM-Pengabdian kepada Masyarakat</a><br><br>
                                     
                                 </div>
@@ -69,6 +70,7 @@ PIMUS 14 - Registration
                                     <div>
                                         <a href="/registration/cabang/register?cabang=8" class="buttons" id="register">Register PKM-Riset Sosial Humaniora</a><br><br>
                                         <a href="/registration/cabang/register?cabang=9" class="buttons" id="register">Register PKM-Kewirausahaan</a><br><br>
+                                        <a href="/registration/cabang/register?cabang=10" class="buttons" id="register">Register PKM-Riset Eksakta</a><br><br>
                                         <a href="/registration/cabang/register?cabang=11" class="buttons" id="register">Register PKM-Pengabdian kepada Masyarakat</a><br><br>
                                     </div>
                                     ';
@@ -96,7 +98,7 @@ PIMUS 14 - Registration
                                     <div>
                                         <a href="/registration/cabang/register?cabang=8" class="buttons" id="register">Register PKM-Riset</a><br><br>
                                         <a href="/registration/cabang/register?cabang=9" class="buttons" id="register">Register PKM-Kewirausahaan</a><br><br>
-                                        <a href="/registration/cabang/register?cabang=10" class="buttons" id="register">Register PKM-Karsa Cipta</a><br><br>
+                                        <a href="/registration/cabang/register?cabang=10" class="buttons" id="register">Register PKM-Riset Eksakta</a><br><br>
                                         <a href="/registration/cabang/register?cabang=11" class="buttons" id="register">Register PKM-Pengabdian kepada Masyarakat</a><br><br>
                                         <a href="/registration/cabang/register?cabang=12" class="buttons" id="register">Register PKM-Penerapan IPTEK</a>
                                     </div>

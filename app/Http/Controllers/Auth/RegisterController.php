@@ -102,6 +102,9 @@ class RegisterController extends Controller
             if($user != null){
                 return redirect()->route('login')->with(session()->flash('alert-success', 'Akun berhasil dibuat, silahkan verifikasi email gooaya'));
             }
+            else {
+                return redirect()->back()->with(session()->flash('alert-danger', 'Something went wrong!'));
+            }
         } catch (\Throwable $th) {
             return redirect()->back()->with(session()->flash('alert-danger', 'Something went wrong!'));
         }

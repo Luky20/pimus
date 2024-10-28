@@ -148,9 +148,9 @@
                             menyaring
                             mahasiswa/i terbaik UBAYA
                             untuk menjadi perwakilan pada kompetisi nasional. Di tahun yang ke-14 ini, PIMUS
-                            memiliki 10
+                            memiliki 11
                             cabang lomba yang terdiri
-                            dari PKM 3 Bidang (PKM RSH, PKM K, PKM PM), Pemilihan Mahasiswa
+                            dari PKM 4 Bidang (PKM RSH, PKM K, PKM PM, PKM RE), Pemilihan Mahasiswa
                             Berprestasi, Video Digital Pendidikan, Ide Bisnis, Poster Digital Pendidikan,
                             Kompetisi MIPAS, Debat Bahasa Inggris, dan Debat Bahasa Indonesia. Yuk daftarkan dirimu
                             sekarang, dapatkan pengalaman berharga, kesempatan menjadi
@@ -189,7 +189,7 @@
                 <li>
                     <div class="timeline-content">
                         <h3 style="color: #ffffff" class="date">5 - 8 November 2024</h3>
-                        <h1>Klinik PKM, PILMAPRES, dan Video Digital Pendidikan</h1>
+                        <h1>Klinik PKM, Ide Bisnis, dan Video Digital Pendidikan</h1>
                     </div>
                 </li>
                 <li>
@@ -212,7 +212,7 @@
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">4 Desember 2024</h3>
+                        <h3 style="color: #ffffff" class="date">6 Desember 2024</h3>
                         <h1>Pengumpulan Karya Poster + Kelengkapannya (POSTER)</h1>
                     </div>
                 </li>

@@ -16,7 +16,7 @@ class RegisterLomba extends Controller
         try
         {
             $idLomba = $req->idLomba;
-            if ($idLomba == 8 || $idLomba == 9 || $idLomba == 11) { // lomba pkm maks 20
+            if ($idLomba == 8 || $idLomba == 9 || $idLomba == 10 | $idLomba == 11) { // lomba pkm maks 20
                 $jumlahPendaftar = DB::table('teams')
                                     ->where('competition_categories_id', '=', $idLomba)
                                     ->where('status', '=', 'Terima')
