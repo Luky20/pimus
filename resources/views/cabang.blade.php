@@ -19,8 +19,10 @@ PIMUS 14 - Registration
 
             $timeNow = date('Y-m-d H:i:s');
             $timeNow = strtotime($timeNow);
-
-            if ($timeNow > strtotime($date[0]->open) && $timeNow < strtotime($date[0]->close))
+            $closeDate = strtotime($date[0]->close);
+            $extendedCloseDate = strtotime('2024-11-15');
+            $isExtendedAccess = in_array($category->id, [1, 2, 3, 5, 6, 7]);
+            if ($timeNow > strtotime($date[0]->open) && ($isExtendedAccess ? $timeNow < $extendedCloseDate : $timeNow < $closeDate))
                 $open = true;
             else
                 $open = false;

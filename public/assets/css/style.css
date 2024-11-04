@@ -237,13 +237,7 @@
     align-items: center;
 }
 
-.logo-hover {
-    transition: transform 0.3s ease; 
-}
-    
-.logo-hover:hover {
-    transform: scale(1.1);
-}
+
 
 .accordion-faq .icon {
     margin: 10px;

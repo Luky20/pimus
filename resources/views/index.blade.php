@@ -176,7 +176,7 @@
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h3 style="color: #ffffff" class="date">7 Oktober 2024 - 4 November 2024</h3>
+                        <h3 style="color: #ffffff" class="date">7 Oktober 2024 - 10 November 2024</h3>
                         <h1 class="text-center">Open Registration </h1>
                     </div>
                 </li>
