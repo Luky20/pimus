@@ -98,13 +98,12 @@ PIMUS 14 - Registration
                             if ($category->id == 8) {
                                 echo '
                                     <div>
-                                        <a href="/registration/cabang/register?cabang=8" class="buttons" id="register">Register PKM-Riset</a><br><br>
-                                        <a href="/registration/cabang/register?cabang=9" class="buttons" id="register">Register PKM-Kewirausahaan</a><br><br>
-                                        <a href="/registration/cabang/register?cabang=10" class="buttons" id="register">Register PKM-Riset Eksakta</a><br><br>
-                                        <a href="/registration/cabang/register?cabang=11" class="buttons" id="register">Register PKM-Pengabdian kepada Masyarakat</a><br><br>
-                                        <a href="/registration/cabang/register?cabang=12" class="buttons" id="register">Register PKM-Penerapan IPTEK</a>
-                                    </div>
-                                    ';
+                                    <a href="/registration/cabang/register?cabang=8" class="buttons" id="register">Register PKM-Riset Sosial Humaniora</a><br><br>
+                                    <a href="/registration/cabang/register?cabang=9" class="buttons" id="register">Register PKM-Kewirausahaan</a><br><br>
+                                    <a href="/registration/cabang/register?cabang=10" class="buttons" id="register">Register PKM-Riset Eksakta</a><br><br>
+                                    <a href="/registration/cabang/register?cabang=11" class="buttons" id="register">Register PKM-Pengabdian kepada Masyarakat</a><br><br>
+                                </div>
+                                ';
                             } else {
                                 echo '
                                     <div>
