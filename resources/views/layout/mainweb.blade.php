@@ -141,6 +141,9 @@
                     <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
                         <img src="{{ url('assets/images/logo/sponsor/spikoe-logo.png') }}" class="img-fluid logo-hover" alt="Spikoe logo" style="background: black; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 80%;">
                     </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <img src="{{ url('assets/images/logo/sponsor/tehpucuk-logo.png') }}" class="img-fluid logo-hover" alt="Spikoe logo" style="background: black; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 80%;">
+                    </div>
                 </div>
             </div>
 
