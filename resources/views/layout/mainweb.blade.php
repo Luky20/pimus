@@ -136,13 +136,19 @@
 
                 <div class="row justify-content-center">
                     <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
-                        <img src="{{ url('assets/images/logo/sponsor/tanrise-logo.png') }}" class="img-fluid logo-hover" alt="Tanrise logo" style="background: white; border-radius: 50%; padding: 0px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 65%;">
+                        <img src="{{ url('assets/images/logo/sponsor/tanrise-logo.png') }}" class="img-fluid logo-hover" alt="Tanrise logo" style="background: white; border-radius: 50%; padding: 0px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 70%;">
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
-                        <img src="{{ url('assets/images/logo/sponsor/spikoe-logo.png') }}" class="img-fluid logo-hover" alt="Spikoe logo" style="background: black; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 80%;">
+                        <img src="{{ url('assets/images/logo/sponsor/spikoe-logo.png') }}" class="img-fluid logo-hover" alt="Spikoe logo" style="background: black; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 90%;">
                     </div>
-                    <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 150px;">
-                        <img src="{{ url('assets/images/logo/sponsor/tehpucuk-logo.png') }}" class="img-fluid logo-hover" alt="Spikoe logo" style="background: black; border-radius: 50%; padding: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 80%;">
+                    <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center align-items-center" style="height: 155px;">
+                        <img src="{{ url('assets/images/logo/sponsor/bantex-logo.jpeg') }}" class="img-fluid logo-hover" alt="bantex logo" style="background: black; border-radius: 45%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 85%; margin: 10px;">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <img src="{{ url('assets/images/logo/sponsor/sprent-logo.jpg') }}" class="img-fluid logo-hover" alt="sprent logo" style="background: black; border-radius: 50%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 70%;">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <img src="{{ url('assets/images/logo/sponsor/TehGelas-logo.jpeg') }}" class="img-fluid logo-hover" alt="Teh Gelas logo" style="background: black; border-radius: 50%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); object-fit: contain; width: 70%;">
                     </div>
                 </div>
             </div>
