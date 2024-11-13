@@ -21,7 +21,6 @@ PIMUS 14 - Registration
             $timeNow = strtotime($timeNow);
             $closeDate = strtotime($date[0]->close);
             $extendedCloseDate = strtotime('2024-11-15');
-            $isExtendedAccess = in_array($category->id, [1, 2, 3, 5, 6, 7, 8, 9, 10, 11]);
 
             $extendedCloseDateRevisiA = strtotime('2024-11-23 12:00:00');
             $extendedCloseDateRevisiB = strtotime('2024-12-03 08:00:00');
@@ -29,7 +28,7 @@ PIMUS 14 - Registration
             $open = false;
             $openExtendedRevisi = false;
 
-            $isExtendedAccess = in_array($category->id, [1, 2, 3, 5, 6, 7]);
+            $isExtendedAccess = in_array($category->id, [1, 2, 3, 5, 6, 7, 8, 9, 10, 11]);
 
             $isExtendedAccessRevisi = in_array($category->id, [8, 9, 10, 11, 12]);
 
