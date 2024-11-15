@@ -20,7 +20,7 @@ PIMUS 14 - Registration
             $timeNow = date('Y-m-d H:i:s');
             $timeNow = strtotime($timeNow);
             $closeDate = strtotime($date[0]->close);
-            $extendedCloseDate = strtotime('2024-11-15');
+            $extendedCloseDate = strtotime('2024-11-15 23:59:00');
 
             $extendedCloseDateRevisiA = strtotime('2024-11-23 12:00:00');
             $extendedCloseDateRevisiB = strtotime('2024-12-03 08:00:00');
