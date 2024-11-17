@@ -30,7 +30,7 @@ PIMUS 14 - Registration
 
             $isExtendedAccess = in_array($category->id, [1, 2, 3, 5, 6, 7, 8, 9, 10, 11]);
 
-            $isExtendedAccessRevisi = in_array($category->id, [8, 9, 10, 11, 12]);
+            $isExtendedAccessRevisi = in_array($category->id, [1,2,3,5,6,7, 8, 9, 10, 11, 12]);
 
             // cek apakah user sudah registrasi di kategori terkait (PKM-Riset Sosial Humaniora, PKM-Kewirausahaan, PKM-Riset Eksakta, PKM-Pengabdian kepada Masyarakat, Ide Bisnis)
             $userNRP = Auth::user()->user_details->nrp ?? null;
@@ -38,7 +38,7 @@ PIMUS 14 - Registration
                 ->join('teams', 'user_details.teams_id', '=', 'teams.id')
                 ->where('user_details.nrp', $userNRP)
                 ->where('teams.status', '=', 'Tolak')
-                ->whereIn('teams.competition_categories_id', [8, 9, 10, 11, 12])
+                ->whereIn('teams.competition_categories_id', [1,2,3,5,6,7, 8, 9, 10, 11, 12])
                 ->exists();
 
             if ($timeNow > strtotime($date[0]->open) && ($isExtendedAccess ? $timeNow < $extendedCloseDate : $timeNow < $closeDate)) {
@@ -46,7 +46,7 @@ PIMUS 14 - Registration
             }
             
             if ($isExtendedAccessRevisi && $registeredNRP) {
-                if (in_array($category->id, [8, 9, 10, 11])) {
+                if (in_array($category->id, [1,2,3,5,6,7, 8, 9, 10, 11])) {
                     $openExtendedRevisi = $timeNow < $extendedCloseDateRevisiA;
                 } elseif ($category->id == 12) {
                     $openExtendedRevisi = $timeNow < $extendedCloseDateRevisiB;
