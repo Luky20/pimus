@@ -24,6 +24,7 @@ PIMUS 14 - Registration
 
             $extendedCloseDateRevisiA = strtotime('2024-11-23 12:00:00');
             $extendedCloseDateRevisiB = strtotime('2024-12-03 08:00:00');
+            $extendedCloseDateRevisiC = strtotime('2024-12-06 08:00:00');
 
             $open = false;
             $openExtendedRevisi = false;
@@ -46,10 +47,13 @@ PIMUS 14 - Registration
             }
             
             if ($isExtendedAccessRevisi && $registeredNRP) {
-                if (in_array($category->id, [1,2,3,5,6,7, 8, 9, 10, 11])) {
+                if (in_array($category->id, [1,2,3,5, 8, 9, 10, 11])) {
                     $openExtendedRevisi = $timeNow < $extendedCloseDateRevisiA;
                 } elseif ($category->id == 12) {
                     $openExtendedRevisi = $timeNow < $extendedCloseDateRevisiB;
+                }
+                elseif (in_array($category->id, [6,7])){
+                    $openExtendedRevisi = $timeNow < $extendedCloseDateRevisiC;
                 }
             }
 
