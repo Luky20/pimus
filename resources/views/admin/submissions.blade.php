@@ -98,9 +98,13 @@
                                 Update
                             </button>   
                             <!-- Button Delete submission trigger modal -->
-                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Delete{{ $submission->id }}">
-                                Delete
-                            </button>
+                            <form action="{{ route('admin.deleteSubmissions') }}" method="POST" style="display: inline;">
+                                @csrf
+                                <input type="hidden" name="id" value="{{ $submission->id }}">
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this submission?');">
+                                    Delete
+                                </button>
+                            </form>
                         </td>
                     </tr>
 
