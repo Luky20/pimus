@@ -50,9 +50,9 @@
                                 $datetime1 = $datetime1->format('Y-m-d H:i:s');
                             @endphp --}}
                         @elseif($grp->competition_categories_id == 12)
-                            <td data-label="Deadline">3 Desember 2024 08:00 WIB</td>
+                            <td data-label="Deadline">3 Desember 2024 18:00 WIB</td>
                             @php
-                                $datetime1 = new DateTime('2024-12-03 08:00:00');
+                                $datetime1 = new DateTime('2024-12-03 18:00:00');
                                 $datetime1 = $datetime1->format('Y-m-d H:i:s');
                             @endphp
                         @else
