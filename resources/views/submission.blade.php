@@ -13,7 +13,7 @@
     <div class="table-container" style="margin-top: 150px; margin-bottom: 50px;">
         <h1 class="heading">submission</h1>
         {{-- <div class="alert alert-info" id="timer">
-            
+
         </div> --}}
         <table class="table-submit">
             <thead>
@@ -38,9 +38,9 @@
                         <td data-label="Competition Name">{{ $grp->name }}</td>
 
                         @if($grp->competition_categories_id == 1)
-                            <td data-label="Deadline">5 Desember 2024 17:00 WIB</td>
+                            <td data-label="Deadline">6 Desember 2024 15:00 WIB</td>
                             @php
-                                $datetime1 = new DateTime('2024-12-05 17:00:00');
+                                $datetime1 = new DateTime('2024-12-06 15:00:00');
                                 $datetime1 = $datetime1->format('Y-m-d H:i:s');
                             @endphp
                         {{-- @elseif($grp->competition_categories_id == 4)
@@ -55,6 +55,12 @@
                                 $datetime1 = new DateTime('2024-12-03 18:00:00');
                                 $datetime1 = $datetime1->format('Y-m-d H:i:s');
                             @endphp
+                        @elseif($grp->competition_categories_id == 7)
+                            <td data-label="Deadline">6 Desember 2024 12:00 WIB</td>
+                            @php
+                                $datetime1 = new DateTime('2024-12-06 12:00:00');
+                                $datetime1 = $datetime1->format('Y-m-d H:i:s');
+                            @endphp
                         @else
                             <td data-label="Deadline">3 Desember 2024 23:00 WIB</td>
                             @php
@@ -66,7 +72,7 @@
                         @php
                             $currentDateTime = date('Y-m-d H:i:s');
                             $diff = strtotime($datetime1) - strtotime($currentDateTime);
-                            
+
                         @endphp
 
                         @if ($grp->link_proposal != null)
@@ -93,7 +99,7 @@
                 @endforeach
 
                 {{-- Submission with Google Form --}}
-                
+
                 {{-- @foreach ($listSubmission as $list)
                     <tr>
                         <td data-label="Competition Name">
@@ -134,7 +140,7 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row justify-content-center mb-2" id="isi">
-                            
+
                         </div>
                         <div class="row mb-3">
                             <div class="col"></div>
@@ -159,7 +165,7 @@
         function SetID (pidlomba, pidkelompok, pidkategori) {
             idlomba = pidlomba;
             idkelompok = pidkelompok;
-            
+
             $('#idtes').val(pidkategori)
 
             const isi = document.getElementById('isi')
@@ -244,7 +250,7 @@
         var linkProp = null;
         var description = null;
 
-        
+
         $('#btnSubmit').on('click', function() {
             if (!confirm("Are you sure?")) return
 
