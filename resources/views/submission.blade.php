@@ -38,9 +38,9 @@
                         <td data-label="Competition Name">{{ $grp->name }}</td>
 
                         @if($grp->competition_categories_id == 1)
-                            <td data-label="Deadline">6 Desember 2024 15:00 WIB</td>
+                            <td data-label="Deadline">6 Desember 2024 23.59 WIB</td>
                             @php
-                                $datetime1 = new DateTime('2024-12-06 15:00:00');
+                                $datetime1 = new DateTime('2024-12-06 23:59:00');
                                 $datetime1 = $datetime1->format('Y-m-d H:i:s');
                             @endphp
                         {{-- @elseif($grp->competition_categories_id == 4)
