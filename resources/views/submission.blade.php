@@ -64,7 +64,7 @@
                         @elseif($grp->competition_categories_id == 6)
                         <td data-label="Deadline">6 Desember 2024 10:00 WIB</td>
                         @php
-                            $datetime1 = new DateTime('2024-12-06 12:00:00');
+                            $datetime1 = new DateTime('2024-12-06 10:00:00');
                             $datetime1 = $datetime1->format('Y-m-d H:i:s');
                         @endphp
                         @else
